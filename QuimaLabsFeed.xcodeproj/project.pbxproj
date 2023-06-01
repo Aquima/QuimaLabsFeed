@@ -14,6 +14,7 @@
 		C4F5E40D2A283CC1009DA08F /* QuimaLabsFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E40C2A283CC1009DA08F /* QuimaLabsFeedTests.swift */; };
 		C4F5E4172A283CC1009DA08F /* QuimaLabsFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E4162A283CC1009DA08F /* QuimaLabsFeedUITests.swift */; };
 		C4F5E4192A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E4182A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift */; };
+		C4F5E4262A283CFA009DA08F /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E4252A283CFA009DA08F /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C4F5E4122A283CC1009DA08F /* QuimaLabsFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuimaLabsFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F5E4162A283CC1009DA08F /* QuimaLabsFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuimaLabsFeedUITests.swift; sourceTree = "<group>"; };
 		C4F5E4182A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuimaLabsFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4F5E4252A283CFA009DA08F /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				C4F5E3FD2A283CBE009DA08F /* ContentView.swift */,
 				C4F5E3FF2A283CC1009DA08F /* Assets.xcassets */,
 				C4F5E4012A283CC1009DA08F /* Preview Content */,
+				C4F5E4252A283CFA009DA08F /* FeedItem.swift */,
 			);
 			path = QuimaLabsFeed;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				C4F5E3FE2A283CBE009DA08F /* ContentView.swift in Sources */,
 				C4F5E3FC2A283CBE009DA08F /* QuimaLabsFeedApp.swift in Sources */,
+				C4F5E4262A283CFA009DA08F /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
