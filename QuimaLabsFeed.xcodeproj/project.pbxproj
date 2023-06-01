@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4F5E3FC2A283CBE009DA08F /* QuimaLabsFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E3FB2A283CBE009DA08F /* QuimaLabsFeedApp.swift */; };
+		C4F5E3FE2A283CBE009DA08F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E3FD2A283CBE009DA08F /* ContentView.swift */; };
+		C4F5E4002A283CC1009DA08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F5E3FF2A283CC1009DA08F /* Assets.xcassets */; };
+		C4F5E4032A283CC1009DA08F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F5E4022A283CC1009DA08F /* Preview Assets.xcassets */; };
+		C4F5E40D2A283CC1009DA08F /* QuimaLabsFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E40C2A283CC1009DA08F /* QuimaLabsFeedTests.swift */; };
+		C4F5E4172A283CC1009DA08F /* QuimaLabsFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E4162A283CC1009DA08F /* QuimaLabsFeedUITests.swift */; };
+		C4F5E4192A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E4182A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4F5E4092A283CC1009DA08F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F5E3F02A283CBE009DA08F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F5E3F72A283CBE009DA08F;
+			remoteInfo = QuimaLabsFeed;
+		};
+		C4F5E4132A283CC1009DA08F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F5E3F02A283CBE009DA08F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F5E3F72A283CBE009DA08F;
+			remoteInfo = QuimaLabsFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4F5E3F82A283CBE009DA08F /* QuimaLabsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuimaLabsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F5E3FB2A283CBE009DA08F /* QuimaLabsFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuimaLabsFeedApp.swift; sourceTree = "<group>"; };
+		C4F5E3FD2A283CBE009DA08F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4F5E3FF2A283CC1009DA08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4F5E4022A283CC1009DA08F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4F5E4082A283CC1009DA08F /* QuimaLabsFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuimaLabsFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F5E40C2A283CC1009DA08F /* QuimaLabsFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuimaLabsFeedTests.swift; sourceTree = "<group>"; };
+		C4F5E4122A283CC1009DA08F /* QuimaLabsFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuimaLabsFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F5E4162A283CC1009DA08F /* QuimaLabsFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuimaLabsFeedUITests.swift; sourceTree = "<group>"; };
+		C4F5E4182A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuimaLabsFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F5E3F52A283CBE009DA08F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F5E4052A283CC1009DA08F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F5E40F2A283CC1009DA08F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4F5E3EF2A283CBE009DA08F = {
+			isa = PBXGroup;
+			children = (
+				C4F5E3FA2A283CBE009DA08F /* QuimaLabsFeed */,
+				C4F5E40B2A283CC1009DA08F /* QuimaLabsFeedTests */,
+				C4F5E4152A283CC1009DA08F /* QuimaLabsFeedUITests */,
+				C4F5E3F92A283CBE009DA08F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F5E3F92A283CBE009DA08F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F5E3F82A283CBE009DA08F /* QuimaLabsFeed.app */,
+				C4F5E4082A283CC1009DA08F /* QuimaLabsFeedTests.xctest */,
+				C4F5E4122A283CC1009DA08F /* QuimaLabsFeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F5E3FA2A283CBE009DA08F /* QuimaLabsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				C4F5E3FB2A283CBE009DA08F /* QuimaLabsFeedApp.swift */,
+				C4F5E3FD2A283CBE009DA08F /* ContentView.swift */,
+				C4F5E3FF2A283CC1009DA08F /* Assets.xcassets */,
+				C4F5E4012A283CC1009DA08F /* Preview Content */,
+			);
+			path = QuimaLabsFeed;
+			sourceTree = "<group>";
+		};
+		C4F5E4012A283CC1009DA08F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4F5E4022A283CC1009DA08F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4F5E40B2A283CC1009DA08F /* QuimaLabsFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F5E40C2A283CC1009DA08F /* QuimaLabsFeedTests.swift */,
+			);
+			path = QuimaLabsFeedTests;
+			sourceTree = "<group>";
+		};
+		C4F5E4152A283CC1009DA08F /* QuimaLabsFeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F5E4162A283CC1009DA08F /* QuimaLabsFeedUITests.swift */,
+				C4F5E4182A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift */,
+			);
+			path = QuimaLabsFeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F5E3F72A283CBE009DA08F /* QuimaLabsFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F5E41C2A283CC1009DA08F /* Build configuration list for PBXNativeTarget "QuimaLabsFeed" */;
+			buildPhases = (
+				C4F5E3F42A283CBE009DA08F /* Sources */,
+				C4F5E3F52A283CBE009DA08F /* Frameworks */,
+				C4F5E3F62A283CBE009DA08F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuimaLabsFeed;
+			productName = QuimaLabsFeed;
+			productReference = C4F5E3F82A283CBE009DA08F /* QuimaLabsFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4F5E4072A283CC1009DA08F /* QuimaLabsFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F5E41F2A283CC1009DA08F /* Build configuration list for PBXNativeTarget "QuimaLabsFeedTests" */;
+			buildPhases = (
+				C4F5E4042A283CC1009DA08F /* Sources */,
+				C4F5E4052A283CC1009DA08F /* Frameworks */,
+				C4F5E4062A283CC1009DA08F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F5E40A2A283CC1009DA08F /* PBXTargetDependency */,
+			);
+			name = QuimaLabsFeedTests;
+			productName = QuimaLabsFeedTests;
+			productReference = C4F5E4082A283CC1009DA08F /* QuimaLabsFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4F5E4112A283CC1009DA08F /* QuimaLabsFeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F5E4222A283CC1009DA08F /* Build configuration list for PBXNativeTarget "QuimaLabsFeedUITests" */;
+			buildPhases = (
+				C4F5E40E2A283CC1009DA08F /* Sources */,
+				C4F5E40F2A283CC1009DA08F /* Frameworks */,
+				C4F5E4102A283CC1009DA08F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F5E4142A283CC1009DA08F /* PBXTargetDependency */,
+			);
+			name = QuimaLabsFeedUITests;
+			productName = QuimaLabsFeedUITests;
+			productReference = C4F5E4122A283CC1009DA08F /* QuimaLabsFeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F5E3F02A283CBE009DA08F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C4F5E3F72A283CBE009DA08F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C4F5E4072A283CC1009DA08F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C4F5E3F72A283CBE009DA08F;
+					};
+					C4F5E4112A283CC1009DA08F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C4F5E3F72A283CBE009DA08F;
+					};
+				};
+			};
+			buildConfigurationList = C4F5E3F32A283CBE009DA08F /* Build configuration list for PBXProject "QuimaLabsFeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4F5E3EF2A283CBE009DA08F;
+			productRefGroup = C4F5E3F92A283CBE009DA08F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F5E3F72A283CBE009DA08F /* QuimaLabsFeed */,
+				C4F5E4072A283CC1009DA08F /* QuimaLabsFeedTests */,
+				C4F5E4112A283CC1009DA08F /* QuimaLabsFeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4F5E3F62A283CBE009DA08F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F5E4032A283CC1009DA08F /* Preview Assets.xcassets in Resources */,
+				C4F5E4002A283CC1009DA08F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F5E4062A283CC1009DA08F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F5E4102A283CC1009DA08F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F5E3F42A283CBE009DA08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F5E3FE2A283CBE009DA08F /* ContentView.swift in Sources */,
+				C4F5E3FC2A283CBE009DA08F /* QuimaLabsFeedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F5E4042A283CC1009DA08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F5E40D2A283CC1009DA08F /* QuimaLabsFeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F5E40E2A283CC1009DA08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F5E4192A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift in Sources */,
+				C4F5E4172A283CC1009DA08F /* QuimaLabsFeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4F5E40A2A283CC1009DA08F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F5E3F72A283CBE009DA08F /* QuimaLabsFeed */;
+			targetProxy = C4F5E4092A283CC1009DA08F /* PBXContainerItemProxy */;
+		};
+		C4F5E4142A283CC1009DA08F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F5E3F72A283CBE009DA08F /* QuimaLabsFeed */;
+			targetProxy = C4F5E4132A283CC1009DA08F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4F5E41A2A283CC1009DA08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4F5E41B2A283CC1009DA08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4F5E41D2A283CC1009DA08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuimaLabsFeed/Preview Content\"";
+				DEVELOPMENT_TEAM = 73A3QCVC2H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimalabs.QuimaLabsFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4F5E41E2A283CC1009DA08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuimaLabsFeed/Preview Content\"";
+				DEVELOPMENT_TEAM = 73A3QCVC2H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimalabs.QuimaLabsFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4F5E4202A283CC1009DA08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73A3QCVC2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimalabs.QuimaLabsFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuimaLabsFeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuimaLabsFeed";
+			};
+			name = Debug;
+		};
+		C4F5E4212A283CC1009DA08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73A3QCVC2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimalabs.QuimaLabsFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuimaLabsFeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuimaLabsFeed";
+			};
+			name = Release;
+		};
+		C4F5E4232A283CC1009DA08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73A3QCVC2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimalabs.QuimaLabsFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuimaLabsFeed;
+			};
+			name = Debug;
+		};
+		C4F5E4242A283CC1009DA08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73A3QCVC2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quimalabs.QuimaLabsFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuimaLabsFeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F5E3F32A283CBE009DA08F /* Build configuration list for PBXProject "QuimaLabsFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F5E41A2A283CC1009DA08F /* Debug */,
+				C4F5E41B2A283CC1009DA08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F5E41C2A283CC1009DA08F /* Build configuration list for PBXNativeTarget "QuimaLabsFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F5E41D2A283CC1009DA08F /* Debug */,
+				C4F5E41E2A283CC1009DA08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F5E41F2A283CC1009DA08F /* Build configuration list for PBXNativeTarget "QuimaLabsFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F5E4202A283CC1009DA08F /* Debug */,
+				C4F5E4212A283CC1009DA08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F5E4222A283CC1009DA08F /* Build configuration list for PBXNativeTarget "QuimaLabsFeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F5E4232A283CC1009DA08F /* Debug */,
+				C4F5E4242A283CC1009DA08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F5E3F02A283CBE009DA08F /* Project object */;
+}
