@@ -102,8 +102,7 @@
 				C4F5E3FD2A283CBE009DA08F /* ContentView.swift */,
 				C4F5E3FF2A283CC1009DA08F /* Assets.xcassets */,
 				C4F5E4012A283CC1009DA08F /* Preview Content */,
-				C4F5E4252A283CFA009DA08F /* FeedItem.swift */,
-				C4F5E4272A284215009DA08F /* FeedLoader.swift */,
+				C4F5E4292A284333009DA08F /* Feed Feature */,
 			);
 			path = QuimaLabsFeed;
 			sourceTree = "<group>";
@@ -131,6 +130,15 @@
 				C4F5E4182A283CC1009DA08F /* QuimaLabsFeedUITestsLaunchTests.swift */,
 			);
 			path = QuimaLabsFeedUITests;
+			sourceTree = "<group>";
+		};
+		C4F5E4292A284333009DA08F /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				C4F5E4252A283CFA009DA08F /* FeedItem.swift */,
+				C4F5E4272A284215009DA08F /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
