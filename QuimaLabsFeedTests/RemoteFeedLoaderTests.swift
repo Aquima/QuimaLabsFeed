@@ -21,12 +21,6 @@ protocol HTTPClient {
     func get(from url: URL)
 }
 
-class HTTPClientSpy: HTTPClient {
-    func get(from url: URL) {
-        requestURL = url
-    }
-    var requestURL: URL?
-}
 final class RemoteFeedLoaderTests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -38,20 +32,23 @@ final class RemoteFeedLoaderTests: XCTestCase {
     }
 
     func testInitDoesNotRequestURL() throws {
-        let client = HTTPClientSpy()
-        let url = URL(string: "https//:www.give.request.com")!
-        let _ = RemoteFeedLoader(url: url, client: client)
+        
+        let (_, client) = makeSUT()
         XCTAssertNil(client.requestURL)
     }
     
     func testLoadRequestDataFromURL() {
-        let client = HTTPClientSpy()
-        let url = URL(string: "https//:www.give.request.com")!
-        let sut = RemoteFeedLoader(url: url, client: client)
+        let url: URL = URL(string: "https//:www.give.request.com")!
+        let (sut, client) = makeSUT(url: url)
         sut.load()
         XCTAssertNotNil(client.requestURL)
     }
 
+    private func makeSUT(url: URL = URL(string: "https//:www.give.request.com")!) -> (RemoteFeedLoader, HTTPClientSpy) {
+        let client = HTTPClientSpy()
+        return (RemoteFeedLoader(url: url, client: client), client)
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
@@ -59,4 +56,12 @@ final class RemoteFeedLoaderTests: XCTestCase {
         }
     }
 
+    private class HTTPClientSpy: HTTPClient {
+        var requestURL: URL?
+        
+        func get(from url: URL) {
+            requestURL = url
+        }
+    }
+    
 }
