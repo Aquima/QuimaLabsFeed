@@ -6,20 +6,7 @@
 //
 
 import XCTest
-class RemoteFeedLoader {
-    let client: HTTPClient
-    let url: URL
-    init(url: URL, client: HTTPClient) {
-        self.client = client
-        self.url = url
-    }
-    func load() {
-        client.get(from: url)
-    }
-}
-protocol HTTPClient {
-    func get(from url: URL)
-}
+import QuimaLabsFeed
 
 final class RemoteFeedLoaderTests: XCTestCase {
 
@@ -41,7 +28,8 @@ final class RemoteFeedLoaderTests: XCTestCase {
         let url: URL = URL(string: "https//:www.give.request.com")!
         let (sut, client) = makeSUT(url: url)
         sut.load()
-        XCTAssertNotNil(client.requestURL)
+        sut.load()
+        XCTAssertEqual(client.requestedURLs, [url,url])
     }
 
     private func makeSUT(url: URL = URL(string: "https//:www.give.request.com")!) -> (RemoteFeedLoader, HTTPClientSpy) {
@@ -58,9 +46,10 @@ final class RemoteFeedLoaderTests: XCTestCase {
 
     private class HTTPClientSpy: HTTPClient {
         var requestURL: URL?
-        
+        var requestedURLs: [URL] = [URL]()
         func get(from url: URL) {
             requestURL = url
+            requestedURLs.append(url)
         }
     }
     

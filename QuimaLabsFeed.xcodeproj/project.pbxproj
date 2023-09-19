@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4A057052A6657B1003E0EAE /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A057042A6657B1003E0EAE /* RemoteFeedLoaderTests.swift */; };
+		C4B494F72A9B319A00DC4D14 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B494F62A9B319A00DC4D14 /* RemoteFeedLoader.swift */; };
 		C4F5E3FC2A283CBE009DA08F /* QuimaLabsFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E3FB2A283CBE009DA08F /* QuimaLabsFeedApp.swift */; };
 		C4F5E3FE2A283CBE009DA08F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5E3FD2A283CBE009DA08F /* ContentView.swift */; };
 		C4F5E4002A283CC1009DA08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F5E3FF2A283CC1009DA08F /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		C4A057042A6657B1003E0EAE /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
+		C4B494F62A9B319A00DC4D14 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		C4F5E3F82A283CBE009DA08F /* QuimaLabsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuimaLabsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F5E3FB2A283CBE009DA08F /* QuimaLabsFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuimaLabsFeedApp.swift; sourceTree = "<group>"; };
 		C4F5E3FD2A283CBE009DA08F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4B494F52A9B318D00DC4D14 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C4B494F62A9B319A00DC4D14 /* RemoteFeedLoader.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		C4F5E3EF2A283CBE009DA08F = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 		C4F5E3FA2A283CBE009DA08F /* QuimaLabsFeed */ = {
 			isa = PBXGroup;
 			children = (
+				C4B494F52A9B318D00DC4D14 /* API */,
 				C4F5E3FB2A283CBE009DA08F /* QuimaLabsFeedApp.swift */,
 				C4F5E3FD2A283CBE009DA08F /* ContentView.swift */,
 				C4F5E3FF2A283CC1009DA08F /* Assets.xcassets */,
@@ -277,6 +288,7 @@
 				C4F5E3FE2A283CBE009DA08F /* ContentView.swift in Sources */,
 				C4F5E3FC2A283CBE009DA08F /* QuimaLabsFeedApp.swift in Sources */,
 				C4F5E4282A284215009DA08F /* FeedLoader.swift in Sources */,
+				C4B494F72A9B319A00DC4D14 /* RemoteFeedLoader.swift in Sources */,
 				C4F5E4262A283CFA009DA08F /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
