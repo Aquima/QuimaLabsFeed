@@ -59,5 +59,8 @@ final class RemoteFeedLoaderTests: XCTestCase {
             completions.append(completion)
             requestedURLs.append(url)
         }
+        func complete(with error: Error) {
+            completions[0](error)
+        }
     }
 }
