@@ -5,9 +5,9 @@
 //  Created by Raul Quispe on 31/05/23.
 //
 
-import UIKit
+import Foundation
 
-struct FeedItem {
+public struct FeedItem: Equatable {
     var id: UUID
     var description: String?
     var location: String?
